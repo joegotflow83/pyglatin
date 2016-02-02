@@ -41,7 +41,7 @@ def single_translate(word):
 
 		first_letter = word[0]
 		word = word.replace(word[0], '')
-		new_word = word + last_letter + 'ay'
+		new_word = word + first_letter + 'ay'
 		print(new_word)
 
 def multiple_translate(words):
